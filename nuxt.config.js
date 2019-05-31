@@ -40,9 +40,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/vuetify',
-    // '~/plugins/vue-particles'
-    // {src: '~/plugins/vue-typer.js', mode: 'client'}
+    '@/plugins/vuetify'
   ],
 
   /*

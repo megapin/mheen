@@ -1,30 +1,22 @@
 <template>
-  <!-- <v-layout column justify-center align-center > -->
   <v-layout>
-    <!-- <v-flex xs12 sm8 md6> -->
     <v-flex>
-      <!-- <div class="text-xs-right"> -->
-        <no-ssr>
-          <vue-typer text="민 인터랙트"
-            :repeat='Infinity'
-            :shuffle='true'
-            initial-action='typing'
-            :pre-type-delay='70'
-            :type-delay='150'
-            :pre-erase-delay='2000'
-            :erase-delay='250'
-            erase-style='backspace'
-            :erase-on-complete='true'
-            caret-animation='expand'
-          ></vue-typer>
-        </no-ssr>
-      <!-- </div> -->
+      <no-ssr>
+        <vue-typer text="민 인터랙트"
+          :repeat='Infinity'
+          :shuffle='true'
+          initial-action='typing'
+          :pre-type-delay='70'
+          :type-delay='150'
+          :pre-erase-delay='2000'
+          :erase-delay='250'
+          erase-style='backspace'
+          :erase-on-complete='true'
+          caret-animation='expand'
+        ></vue-typer>
+      </no-ssr>
     </v-flex>
   </v-layout>
-
-  <!-- <div>
-    <vue-particles color="#dedede"></vue-particles>
-  </div> -->
 </template>
 
 <script>
