@@ -41,7 +41,8 @@ export default {
   */
   plugins: [
     '@/plugins/vuetify',
-    '~/plugins/vue-particles'
+    // '~/plugins/vue-particles'
+    // {src: '~/plugins/vue-typer.js', mode: 'client'}
   ],
 
   /*
