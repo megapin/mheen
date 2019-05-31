@@ -1,9 +1,8 @@
 <template>
-  <v-layout
+  <!-- <v-layout
     column
     justify-center
-    align-center
-  >
+    align-center>
     <v-flex
       xs12
       sm8
@@ -57,17 +56,20 @@
         </v-card-actions>
       </v-card>
     </v-flex>
-  </v-layout>
+  </v-layout> -->
+  <div>
+    <vue-particles color="#dedede"></vue-particles>
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
+// import Logo from '~/components/Logo.vue'
+// import VuetifyLogo from '~/components/VuetifyLogo.vue'
 
 export default {
-  components: {
-    Logo,
-    VuetifyLogo
-  }
+  // components: {
+  //   Logo,
+  //   VuetifyLogo
+  // }
 }
 </script>
