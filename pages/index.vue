@@ -18,14 +18,14 @@
       </no-ssr>
     </v-flex>
 
-    <v-flex>
+    <!-- <v-flex>
       <div class="bubble-wrapper">
         <div ref="bubble" class="bubble">
           <img :src="curLogo" class="bubble-image">
         </div>
         <div ref="bubblePulse" class="bubble-pulse"></div>
       </div>
-    </v-flex>
+    </v-flex> -->
     
   </v-layout>
 </template>
